@@ -1,0 +1,133 @@
+:root{
+
+    --cor-titulo:#305966;
+    --cor-background:#B63D43;
+    --cor-azul:#7B9AA6;
+    --cor-branco:#ecf0f1;
+}
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    background-color: #4bc8d670;
+}
+
+header {
+    background-color: #333fcaee;
+    color: #ecf0f1;
+    font-weight: normal;
+    padding: 16px;
+    
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+}
+
+header nav li a {
+    color: #cf090a;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+header nav li a:hover {
+    border-bottom: 3px solid #cf090a;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+section .container-form{
+    margin: auto 0;
+}
+
+.container > img {
+    width: 60%;
+}
+
+.personagens img {
+    height: 35px;
+}
+
+.personagens li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+form input, form button {
+    display: block;
+}
+
+form button {
+    margin-top: 16px;
+}
+
+form input:focus {
+    outline-color: #333fcaee;
+}
+
+form input {
+    outline-style:groove;
+    border-radius: 5px;
+}
+
+form input{
+    text-align: center;
+    padding: 5px;
+    background-color: #fffffe;
+}
+
+form button {
+    outline-style: groove;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+    background-color: #fffffe;
+
+}
+form button:hover{
+    background-color: #41b540;
+}
+
+section p {
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer {
+    background-color: #333fcaee;
+}
+
+footer p {
+    text-align: center;
+}
